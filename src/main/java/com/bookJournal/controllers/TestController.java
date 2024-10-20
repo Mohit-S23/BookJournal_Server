@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/server/test")
+    @GetMapping("test")
     public String getTestMessage() {
         return "Hello from Spring Boot!";
     }
